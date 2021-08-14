@@ -4,7 +4,6 @@ const myVar = "Foo";
 
 function first() {
   console.log("Inside first()");
-
   console.log("myVar is currently equal to:", myVar);
 }
 
@@ -26,7 +25,6 @@ second();
 function second() {
   function first() {
     console.log("Inside first()");
-
     console.log("myVar is currently equal to:", myVar);
   }
 
